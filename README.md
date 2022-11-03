@@ -8,7 +8,7 @@ Dieses PowerShell SKript fragt den Status der FE2 Input-Plugins ab und startet d
   3. Für die Überwachung benötigst du einen Benutzer mit den Berechtigungen um im Admin-Bereich die Alarmeingänge zu steuern und einen "manuellen" Alarm auszulösen.<br />
   Hierzu kannst du entweder den Admin-Benutzer verwenden !nicht empfehlenswert<br />
   Oder du erstellst dir einen Service-Benutzer.
-  - Lege eine neue Rolle an mit den benötigten [Berechtigungen](FE2 Rolle Input Überwachung.png)
+  - Lege eine neue Rolle an mit den benötigten [Berechtigungen](FE2%20Rolle%20Input%20Überwachung.png)
   - Erstelle eine neue Person und weise dieser die neue Rolle hinzu.
   
 ### Windows-Server
