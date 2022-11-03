@@ -23,7 +23,7 @@ $bodyLogin = @{
 } | ConvertTo-Json
 ```
 3. Optional: Der Alarmeingang mit dem Typ "MailInputRLP" wird immer gestartet, auch wenn dieser gestoppt ist. Wenn das nicht gewünscht ist, einfach die Zeile rauslöschen.
-4. In der Windowseigenen Aufgabenplanung das SKript in der gewünschten Frequenz, z.B. alle 15 Minuten starten.
+4. Über die Windowseigenen Aufgabenplanung das Skript in der gewünschten Frequenz, z.B. alle 15 Minuten starten.
 ```
 Command: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
 Arguments -Executionpolicy Bypass -command "C:\FE2Scripte\MonitorFE2Inputs.ps1"
