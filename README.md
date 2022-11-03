@@ -1,5 +1,5 @@
 # FE2-InputPluginMonitor
-Dieses PowerShell SKript fragt den Status der FE2 Input-Plugins ab und startet diese ggf. neu und löst einen "manuellen" Alarm auf eine bestimmte Einheit in der Admin-Organisation aus.
+Dieses PowerShell Skript fragt den Status der FE2 Input-Plugins ab und startet diese ggf. neu und löst einen "manuellen" Alarm auf eine bestimmte Einheit in der Admin-Organisation aus.
 
 ## Installation
 ### firEmergency 2
@@ -12,7 +12,7 @@ Dieses PowerShell SKript fragt den Status der FE2 Input-Plugins ab und startet d
   - Erstelle eine neue Person und weise dieser die neue Rolle hinzu.
   
 ### Windows-Server
-1. Speichere dir das PowerShell SKript [MonitorFE2Inputs.ps1](MonitorFE2Inputs.ps1) => C:\FE2Scripte\
+1. Speichere dir das PowerShell Skript [MonitorFE2Inputs.ps1](MonitorFE2Inputs.ps1) => C:\FE2Scripte\
 2. Ändere im Script im oberen Bereich die URL, Benuztername und Passwort
 ```
 $url = "http://localhost:83"
